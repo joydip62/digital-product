@@ -1,0 +1,75 @@
+/* Global css */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* header part */
+.menu-container {
+  background-color: rgb(48, 47, 47);
+  padding: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* .menu-container .logo {
+} */
+.menu-container .logo .logo-photo {
+  width: 120px;
+}
+
+/* .menu-container .menus {
+} */
+.menu-container .menus ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.5s;
+  text-transform: capitalize;
+}
+.menu-container .menus ul li:hover {
+  color: blue;
+}
+
+/* banner */
+.banner {
+  background-image: url(./img/background.png),
+  linear-gradient(45deg, rgb(116, 112, 112), black);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+
+}
+.banner .banner-text {
+  /* width: 50%; */
+  color: white;
+}
+.banner .banner-text h1{
+    font-size: 40px;
+}
+
+.banner .banner-text p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.banner .banner-text .btn{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+}
+.banner .banner-image {
+  /* width: 50%; */
+  text-align: right;
+}
+.banner .banner-image img{
+    width: 300px;
+}
