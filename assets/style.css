@@ -12,6 +12,11 @@
   font-weight: bold;
 }
 
+.title-text {
+  font-size: 40px;
+  text-align: center;
+}
+
 /* header part */
 .menu-container {
   background-color: rgb(48, 47, 47);
@@ -81,8 +86,8 @@
   margin: 30px 0;
 }
 .about-us h1 {
-  text-align: center;
-  font-size: 40px;
+  /* text-align: center;
+  font-size: 40px; */
 }
 .about-us .about-container {
   display: flex;
@@ -94,7 +99,6 @@
   width: 300px;
 }
 .about-us .about-container .about-content {
-  
 }
 
 .about-us .about-container .about-content h2 {
@@ -103,17 +107,56 @@
 .about-us .about-container .about-content p {
   font-size: 18px;
 }
-.about-us .about-container .about-content p:nth-of-type(2){
+.about-us .about-container .about-content p:nth-of-type(2) {
   margin-bottom: 10px;
 }
-.about-us .about-container .about-content details{ 
+.about-us .about-container .about-content details {
   font-size: 18px;
   margin-bottom: 5px;
 }
-.about-us .about-container .about-content details p{
+.about-us .about-container .about-content details p {
   /* width: 30%; */
 }
-
 .about-us .about-container .about-content button {
   margin-top: 10px;
+}
+
+/* Our Services section */
+.our-service {
+  background-color: black;
+  padding: 50px 0;
+}
+.our-service h1 {
+  color: white;
+  padding-bottom: 30px;
+}
+
+.our-service .service-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.our-service .service-container .service-content {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  width: 15%;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 100px 40px #707070;
+}
+.our-service .service-container .service-content img {
+  width: 100px;
+}
+.our-service .service-container .service-content h2 {
+}
+.our-service .service-container .service-content p {
+  margin: 10px 0;
+}
+.our-service .service-container .service-content button {
+  background-color: rgb(48, 47, 47);
+  color: white;
+  border-radius: 10px;
+  border: none;
 }
